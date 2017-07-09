@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    env_file:
+      - .env
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+    volumes:
+      - .:/usr/src/app
+    build:
+      context: .
+    command: yarn run start
+    ports:
+      - "2424:3000"
