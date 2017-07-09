@@ -1,0 +1,27 @@
+{
+  "name": "tweethub",
+  "version": "1.0.0",
+  "description": "Twitter bot for Github stats",
+  "main": "index.js",
+  "repository": "git@github.com:anupvarghese/tweethub.git",
+  "author": "Anoop Varghese",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bunyan": "^1.8.10",
+    "lodash": "^4.17.4",
+    "qs": "^6.5.0",
+    "twitter": "^1.7.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
